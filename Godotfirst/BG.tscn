@@ -1,0 +1,90 @@
+[gd_scene load_steps=5 format=3 uid="uid://d3a0o17ildj3x"]
+
+[ext_resource type="Script" path="res://BG.gd" id="1_3hyug"]
+[ext_resource type="Texture2D" uid="uid://dbcgq7oqfkyev" path="res://Sunny_Land_phaser_project/sunny-land/assets/environment/back.png" id="1_gjemp"]
+[ext_resource type="Texture2D" uid="uid://forbiyhux20l" path="res://Sunny_Land_phaser_project/sunny-land/assets/environment/middle.png" id="2_dqxal"]
+[ext_resource type="Texture2D" uid="uid://bkqg04166r4nu" path="res://Sunny_Land_houses/Sunny Land Trees Props Pack /Props PNG/plant-house.png" id="3_l2snu"]
+
+[node name="BG" type="ParallaxBackground"]
+script = ExtResource("1_3hyug")
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2(1152, 0)
+
+[node name="Back" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(576.5, 324.5)
+scale = Vector2(3.0026, 2.69583)
+texture = ExtResource("1_gjemp")
+
+[node name="Houses" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.6, 1)
+motion_mirroring = Vector2(1152, 0)
+
+[node name="Plant-house" type="Sprite2D" parent="Houses"]
+position = Vector2(53, 327)
+texture = ExtResource("3_l2snu")
+
+[node name="Plant-house2" type="Sprite2D" parent="Houses"]
+position = Vector2(294.75, 327.75)
+scale = Vector2(1.23171, 1.47087)
+texture = ExtResource("3_l2snu")
+
+[node name="Plant-house3" type="Sprite2D" parent="Houses"]
+position = Vector2(575, 333)
+texture = ExtResource("3_l2snu")
+
+[node name="Plant-house4" type="Sprite2D" parent="Houses"]
+position = Vector2(686, 383)
+texture = ExtResource("3_l2snu")
+
+[node name="Plant-house5" type="Sprite2D" parent="Houses"]
+position = Vector2(790, 331)
+texture = ExtResource("3_l2snu")
+
+[node name="Plant-house6" type="Sprite2D" parent="Houses"]
+position = Vector2(939, 337)
+texture = ExtResource("3_l2snu")
+
+[node name="Plant-house7" type="Sprite2D" parent="Houses"]
+position = Vector2(1060.25, 331.75)
+scale = Vector2(1.08537, 1.2767)
+texture = ExtResource("3_l2snu")
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="."]
+motion_scale = Vector2(0.7, 1)
+motion_mirroring = Vector2(1231, 0)
+
+[node name="Middle" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(88, 464)
+texture = ExtResource("2_dqxal")
+metadata/_edit_lock_ = true
+
+[node name="Middle2" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(264, 464)
+texture = ExtResource("2_dqxal")
+metadata/_edit_lock_ = true
+
+[node name="Middle3" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(440, 464)
+texture = ExtResource("2_dqxal")
+metadata/_edit_lock_ = true
+
+[node name="Middle4" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(616, 464)
+texture = ExtResource("2_dqxal")
+metadata/_edit_lock_ = true
+
+[node name="Middle5" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(791, 464)
+texture = ExtResource("2_dqxal")
+metadata/_edit_lock_ = true
+
+[node name="Middle6" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(967, 464)
+texture = ExtResource("2_dqxal")
+metadata/_edit_lock_ = true
+
+[node name="Middle7" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1143, 464)
+texture = ExtResource("2_dqxal")
+metadata/_edit_lock_ = true
