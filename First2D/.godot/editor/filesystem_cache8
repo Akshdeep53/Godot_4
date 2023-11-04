@@ -1,0 +1,24 @@
+2a60927148abd1d33b818b535e306557
+::res://::1685613378
+icon.svg::CompressedTexture2D::4178210966423261721::1685479155::1685479162::1::::<><>::
+player.gd::GDScript::-1::1685483628::0::1::::<>Area2D<>::
+player.tscn::PackedScene::539927231834890415::1685483654::0::1::::<><>::uid://cra5m8u7cts04<>res://player.gd<>uid://uwx47547g63c<>uid://bb1jg4ye11k6h<>uid://cnrn12xnbddlh
+::res://dodge_the_creeps_2d_assets/::1683200759
+README.md::TextFile::-1::1683200759::0::1::::<><>::
+::res://dodge_the_creeps_2d_assets/art/::1685479162
+enemyFlyingAlt_1.png::CompressedTexture2D::69644278912031040::1683200759::1685479162::1::::<><>::
+enemyFlyingAlt_2.png::CompressedTexture2D::846718421004928573::1683200759::1685479162::1::::<><>::
+enemySwimming_1.png::CompressedTexture2D::568281604134713694::1683200759::1685479162::1::::<><>::
+enemySwimming_2.png::CompressedTexture2D::7027233130615817049::1683200759::1685479162::1::::<><>::
+enemyWalking_1.png::CompressedTexture2D::7997621976165770533::1683200759::1685479162::1::::<><>::
+enemyWalking_2.png::CompressedTexture2D::2625852775743118169::1683200759::1685479162::1::::<><>::
+gameover.wav::AudioStreamWAV::7999663391378792231::1683200759::1685479162::1::::<><>::
+House In a Forest Loop.ogg::AudioStreamOggVorbis::3008922830882301955::1683200759::1685479162::1::::<><>::
+playerGrey_up1.png::CompressedTexture2D::5967896414166623087::1683200759::1685479162::1::::<><>::
+playerGrey_up2.png::CompressedTexture2D::1450643190658833158::1683200759::1685479162::1::::<><>::
+playerGrey_walk1.png::CompressedTexture2D::2510842077104996285::1683200759::1685479162::1::::<><>::
+playerGrey_walk2.png::CompressedTexture2D::5721227962300204689::1683200759::1685479162::1::::<><>::
+::res://dodge_the_creeps_2d_assets/fonts/::1685479162
+FONTLOG.txt::TextFile::-1::1683200759::0::1::::<><>::
+LICENSE.txt::TextFile::-1::1683200759::0::1::::<><>::
+Xolonium-Regular.ttf::FontFile::1092727627868216049::1683200759::1685479162::1::::<><>::
